@@ -3,12 +3,8 @@ apply plugin: 'com.jakewharton.butterknife'
 apply from: 'https://raw.githubusercontent.com/nicainci/android_common_script/master/versions.gradle'
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = [ moduleName : project.getName() ]
