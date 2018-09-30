@@ -51,7 +51,7 @@ dependencies {
     implementation rootProject.ext.deps.squareup.okhttp3_logging
 
     implementation rootProject.ext.deps.glide
-    implementation rootProject.ext.deps.glide_compiler
+    annotationProcessor rootProject.ext.deps.glide_compiler
 
     implementation rootProject.ext.deps.guava_android
 }
