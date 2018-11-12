@@ -43,4 +43,13 @@ dependencies {
 
     implementation rootProject.ext.deps.arouter
     annotationProcessor rootProject.ext.deps.arouter_compiler
+    
+    implementation rootProject.ext.deps.rxjava2.rxjava
+    implementation rootProject.ext.deps.rxjava2.rxandroid
+    
+    implementation rootProject.ext.deps.gson
+    
+    implementation rootProject.ext.deps.squareup.okhttp3
+    
+    implementation rootProject.ext.deps.retrofit.runtime
 }
