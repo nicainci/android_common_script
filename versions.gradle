@@ -41,6 +41,9 @@ versions.amap_navi_3d = "6.3.0_3dmap6.4.1"
 versions.amap_2d = "5.2.0"
 versions.amap_location = "4.2.0"
 versions.amap_search = "6.1.0"
+versions.zxing_core = "3.3.3"
+versions.zxing_android_core = "3.3.0"
+versions.zxing_android_integration = "3.3.0"
 
 // android support
 def support = [:]
@@ -158,5 +161,12 @@ amap.map_2d = "com.amap.api:map2d:$versions.amap_2d"
 amap.location = "com.amap.api:location:$versions.amap_location"
 amap.search = "com.amap.api:search:$versions.amap_search"
 deps.amap = amap
+
+// zxing二维码库
+def zxing = [:]
+zxing.core = "com.google.zxing:core:$versions.zxing_core"
+zxing.android_core = "com.google.zxing:android-core:$versions.zxing_android_core"
+zxing.android_integration = "com.google.zxing:android-integration:$versions.zxing_android_integration"
+deps.zxing = zxing
 
 ext.deps = deps
