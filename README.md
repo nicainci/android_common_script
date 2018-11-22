@@ -34,6 +34,9 @@ dependencies {
 
 #### application使用simple_application.gradle
 ```
+// 由于使用到了butterknife 所以记得添加
+// classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+
 apply from: "https://raw.githubusercontent.com/nicainci/android_common_script/master/simple_application.gradle"
 
 android {
@@ -49,6 +52,9 @@ dependencies {
 
 #### library使用base_library.gradle
 ```
+// 由于使用到了butterknife 所以记得添加
+// classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+
 apply from: "https://raw.githubusercontent.com/nicainci/android_common_script/master/base_library.gradle"
 
 dependencies {
