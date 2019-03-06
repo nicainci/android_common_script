@@ -36,6 +36,8 @@ dependencies {
 ```
 // 由于使用到了butterknife 所以记得添加
 // classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+// butterknife-gradle-plugin:8.5.1需要gradle版本3.1.2
+// classpath 'com.android.tools.build:gradle:3.1.2'
 
 apply from: "https://raw.githubusercontent.com/nicainci/android_common_script/master/simple_application.gradle"
 
@@ -54,6 +56,8 @@ dependencies {
 ```
 // 由于使用到了butterknife 所以记得添加
 // classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+// butterknife-gradle-plugin:8.5.1需要gradle版本3.1.2
+// classpath 'com.android.tools.build:gradle:3.1.2'
 
 apply from: "https://raw.githubusercontent.com/nicainci/android_common_script/master/base_library.gradle"
 
