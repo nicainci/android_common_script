@@ -57,7 +57,8 @@ support.v13 = "com.android.support:support-v13:$versions.support"
 support.core_utils = "com.android.support:support-core-utils:$versions.support"
 support.fragment = "com.android.support:support-fragment:$versions.support"
 support.emoji = "com.android.support:support-emoji:$versions.support"
-support.constraint = 'com.android.support.constraint:constraint-layout:1.1.2'
+support.constraint = "com.android.support.constraint:constraint-layout:1.1.2"
+support.multidex = "com.android.support:multidex:1.0.3"
 deps.support = support
 
 // squareup
