@@ -8,11 +8,14 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
 
+        multiDexEnabled true
+
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = [ moduleName : project.getName() ]
             }
         }
+        
     }
 
     compileOptions {
@@ -27,6 +30,7 @@ dependencies {
     implementation rootProject.ext.deps.support.app_compat
     implementation rootProject.ext.deps.support.design
     implementation rootProject.ext.deps.support.constraint
+    implementation rootProject.ext.deps.support.multidex
 
     implementation rootProject.ext.deps.butterknife
     annotationProcessor rootProject.ext.deps.butterknife_compiler
