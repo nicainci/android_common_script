@@ -129,6 +129,9 @@ deps.gson = "com.google.code.gson:gson:$versions.gson"
 // guava
 deps.guava_android = "com.google.guava:guava:$versions.guava_android"
 
+// util
+deps.util =  "com.blankj:utilcode:1.23.7"
+
 // annotation
 deps.annotation_api = "javax.annotation:javax.annotation-api:$versions.annotation_api"
 
