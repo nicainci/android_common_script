@@ -51,4 +51,6 @@ dependencies {
     annotationProcessor rootProject.ext.deps.glide_compiler
 
     implementation rootProject.ext.deps.guava_android
+
+    implementation rootProject.ext.deps.util
 }
